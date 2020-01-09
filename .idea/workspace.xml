@@ -6,51 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee2d2728-1c94-4479-aa53-4dc6d7a99aa5" name="Default Changelist" comment=" project initial variogram calculator">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/MyVariogramCalculator_jar/MyVariogramCalculator.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/FileOpener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/MainController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/MyVariogramBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/NonNumericException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/ReadExcel$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/ReadExcel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/Readme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/home.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/mainview.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/print/MyPrinter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/readme.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/images/desktop4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/images/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/images/welcomebackgroundimage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/images/welocome2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/variogram/VariogramCalculator$Direction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/variogram/VariogramCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/FileOpener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/MyVariogramBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/NonNumericException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/ReadExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/Readme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/home.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/mainview.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/print/MyPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/readme.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/images/desktop4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/images/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/images/welcomebackgroundimage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/images/welocome2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tobi/variogram/VariogramCalculator.java" afterDir="false" />
+    <list default="true" id="ee2d2728-1c94-4479-aa53-4dc6d7a99aa5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578578287608</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" project initial variogram calculator">
+      <created>1578579099323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578579099323</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" project initial variogram calculator">
+      <created>1578579220976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578579220976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,10 +179,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1577362760923" />
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1578579089299">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1578579217379">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1578579089299" />
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1578579217379" />
     <state x="389" y="111" key="FileChooserDialogImpl" timestamp="1578540254001">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -252,18 +223,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1578540227541" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1578579128710">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1578579504379">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1578579128710" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1578579504379" />
     <state x="384" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578577991036">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="384" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1578577991036" />
-    <state x="431" y="161" key="git4idea.merge.GitMergeDialog" timestamp="1578578565749">
+    <state x="431" y="161" key="git4idea.merge.GitMergeDialog" timestamp="1578579726296">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="431" y="161" key="git4idea.merge.GitMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1578578565749" />
+    <state x="431" y="161" key="git4idea.merge.GitMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1578579726296" />
     <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1577332035326">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
