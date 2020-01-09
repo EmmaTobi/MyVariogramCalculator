@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="root" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="796.0" stylesheets="@resources/css/home.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tobi.Controller">
+   <children>
+      <Label fx:id="closeLabel" layoutX="775.0" layoutY="-3.0" text="X" textFill="#650505">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="267.0" prefHeight="84.0" prefWidth="262.0" text="Vario - Tobi">
+         <font>
+            <Font name="Gabriola" size="69.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="73.0" stylesheets="@resources/css/home.css" text="Welcome Geo-Star">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Label>
+      <Button id="toMainScreenButton" fx:id="nextButton" layoutX="722.0" layoutY="387.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="60.0" text="Next " AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="722.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="387.0">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button id="toShowTipsButton" fx:id="showTips" layoutX="14.0" layoutY="387.0" mnemonicParsing="false" onAction="#onClick" prefHeight="35.0" prefWidth="112.0" text="Show Tips" />
+      <ImageView fitHeight="189.0" fitWidth="369.0" layoutX="236.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/images/graph.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

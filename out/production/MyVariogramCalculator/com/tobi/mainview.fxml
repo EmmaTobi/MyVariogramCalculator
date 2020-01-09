@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="rooty" fx:id="rootAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="1018.0" stylesheets="@resources/css/main.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tobi.MainController">
+   <children>
+      <AnchorPane fx:id="leftAnchor" layoutX="14.0" layoutY="1.0" prefHeight="423.0" prefWidth="447.0" style="-fx-background-color: white;">
+         <children>
+            <AnchorPane layoutX="-2.0" layoutY="-3.0" prefHeight="33.0" prefWidth="454.0" style="-fx-background-color: grey;">
+               <children>
+                  <Label fx:id="close" layoutX="429.0" layoutY="3.0" onMouseClicked="#onClickAnyLabel" prefHeight="30.0" prefWidth="18.0" style="-fx-text-fill: brown;" text="X" textAlignment="CENTER">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+            <GridPane layoutX="2.0" layoutY="33.0" prefHeight="100.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="181.0" minWidth="10.0" prefWidth="181.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="113.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.0" minWidth="10.0" prefWidth="113.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="267.0" minHeight="10.0" prefHeight="106.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="267.0" minHeight="10.0" prefHeight="106.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="267.0" minHeight="10.0" prefHeight="106.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="239.0" minHeight="10.0" prefHeight="111.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="239.0" minHeight="10.0" prefHeight="111.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label prefHeight="28.0" prefWidth="180.0" text="Enter Pair Distance" textFill="WHITE" wrapText="true" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="28.0" prefWidth="168.0" text="Choose Direction" textFill="WHITE" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="distanceText" onAction="#onClickAnyThing" prefHeight="25.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <RadioButton fx:id="westEastRadio" mnemonicParsing="false" onAction="#onClickAnyThing" text="West-East" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <RadioButton fx:id="northSouthRadio" mnemonicParsing="false" onAction="#onClickAnyThing" text="North-South" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Label fx:id="distancePairLabel" prefHeight="22.0" prefWidth="118.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label fx:id="directionInfoSelection" prefHeight="17.0" prefWidth="233.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="4" />
+               </children>
+            </GridPane>
+            <Button fx:id="importButton" layoutX="2.0" layoutY="169.0" mnemonicParsing="false" onAction="#onClickAnyThing" text="Import Excel File" />
+            <Label fx:id="fileName" layoutX="116.0" layoutY="173.0" prefHeight="17.0" prefWidth="130.0" textFill="WHITE" />
+            <TextField disable="true" editable="false" layoutX="2.0" layoutY="200.0" prefHeight="19.0" prefWidth="155.0" text="(note: file must be in .XLSX format)">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </TextField>
+            <Button fx:id="calculateVariogramButton" layoutX="2.0" layoutY="281.0" mnemonicParsing="false" onAction="#onClickAnyThing" text="Calculate Variogram" />
+            <Separator id="se" layoutX="2.0" layoutY="313.0" prefHeight="3.0" prefWidth="269.0" />
+            <AnchorPane layoutY="328.0" />
+            <Separator layoutX="2.0" layoutY="149.0" prefHeight="0.0" prefWidth="269.0" />
+            <AnchorPane layoutY="6.0">
+               <children>
+                  <Label fx:id="goBack" layoutX="-2.0" layoutY="-8.0" onMouseClicked="#onClickAnyLabel" prefHeight="33.0" prefWidth="44.0" style="-fx-text-fill: grey; -fx-background-color: black; -fx-border-width: 2px; -fx-border-radius: 5px, 5px,5px,5px;" text=" Home" textAlignment="CENTER" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="-9.0" AnchorPane.topAnchor="-8.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Label>
+               </children>
+            </AnchorPane>
+            <TableView fx:id="table" layoutX="284.0" layoutY="159.0" prefHeight="270.0" prefWidth="168.0">
+              <columns>
+                  <TableColumn fx:id="distanceCol" prefWidth="53.0" text="Distance" />
+                <TableColumn fx:id="variogramCol" prefWidth="67.0" text="Variogram" />
+                <TableColumn fx:id="pairsCol" prefWidth="48.0" text="Pairs" />
+              </columns>
+            </TableView>
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="5.0" />
+         </padding>
+      </AnchorPane>
+      <AnchorPane id="graph" fx:id="graphPane" layoutX="474.0" prefHeight="439.0" prefWidth="546.0" />
+   </children>
+</AnchorPane>

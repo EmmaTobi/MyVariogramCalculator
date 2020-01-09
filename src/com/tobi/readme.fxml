@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="380.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tobi.Readme">
+   <children>
+      <Button fx:id="okButton" layoutX="221.0" layoutY="341.0" mnemonicParsing="false" onAction="#onClick" text="OK" />
+      <TextArea editable="false" layoutX="15.0" layoutY="14.0" prefHeight="322.0" prefWidth="446.0" text="Welcome to Vario-Tobi Desktop Appplication a product of tobi corporation Trademark.&#10;&#10;Objectives&#10;This Application helps a user to determine the semi-variogram values, number of pairs  at a given distance for  a given dataset.&#10;Calculations are based on selected direction i.e North-South or West-East Direction&#10;&#10;Constraint&#10;This Software can only be applied to Rectangular Dataset of grades at a consistent distance which must be  in an Excel file [.XLSX] extension.&#10;Rectangular  implies  equal number of cells in all rows for a given dataset.&#10;Distance Between pairs of Grades must be uniform&#10;" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

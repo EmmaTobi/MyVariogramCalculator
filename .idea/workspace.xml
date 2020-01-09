@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyVariogramCalculator:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee2d2728-1c94-4479-aa53-4dc6d7a99aa5" name="Default Changelist" comment=" project initial variogram calculator">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/MyVariogramCalculator_jar/MyVariogramCalculator.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/FileOpener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/MyVariogramBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/NonNumericException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/ReadExcel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/ReadExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/Readme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/mainview.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/print/MyPrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/readme.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/images/desktop4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/images/graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/images/welcomebackgroundimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/resources/images/welocome2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/variogram/VariogramCalculator$Direction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/MyVariogramCalculator/com/tobi/variogram/VariogramCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/FileOpener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/MyVariogramBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/NonNumericException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/ReadExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/Readme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/mainview.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/print/MyPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/readme.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/images/desktop4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/images/graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/images/welcomebackgroundimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/resources/images/welocome2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tobi/variogram/VariogramCalculator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="EmmaTobi" />
+        <option value="emmatblingx@gmail.com" />
+        <option value="agboola emmanuel" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Emmanuel\IdeaProjects\MyVariogramCalculator\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VTb61j7CIaPC42EvXmy82AsB6t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tobi.Main" />
+      <module name="MyVariogramCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tobi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tobi.ReadExcel" />
+      <module name="MyVariogramCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tobi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VariogramCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tobi.variogram.VariogramCalculator" />
+      <module name="MyVariogramCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tobi.variogram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ReadExcel" />
+        <item itemvalue="Application.VariogramCalculator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_ANONYMOUS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee2d2728-1c94-4479-aa53-4dc6d7a99aa5" name="Default Changelist" comment="" />
+      <created>1577279857095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577279857095</updated>
+    </task>
+    <task id="LOCAL-00001" summary=" project initial variogram calculator">
+      <created>1578578287608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578578287608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project initial" />
+    <MESSAGE value=" project initial variogram calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value=" project initial variogram calculator" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1577359496043">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1577359496043" />
+    <state x="413" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577362760923">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1577362760923" />
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1578579060550">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1578579060550" />
+    <state x="389" y="111" key="FileChooserDialogImpl" timestamp="1578540254001">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="389" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1578540254001" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1578540041956">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1578540041956" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1578540041955">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1578540041955" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1578540041955">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1578540041955" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1578540041956">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1578540041956" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1577312605238">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1577312605238" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1577312605215">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1577312605215" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1577312605215">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1577312605215" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1577312605237">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1577312605237" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1578540227541">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1578540227541" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1578578743115">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1578578743115" />
+    <state x="384" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1578577991036">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="384" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1578577991036" />
+    <state x="431" y="161" key="git4idea.merge.GitMergeDialog" timestamp="1578578565749">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="431" y="161" key="git4idea.merge.GitMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1578578565749" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1577332035326">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1577332035326" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1577307682283">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1577307682283" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1577378084636">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1577378084636" />
+  </component>
+</project>

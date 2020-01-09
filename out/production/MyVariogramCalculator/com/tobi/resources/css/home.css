@@ -1,0 +1,9 @@
+#root{
+   -fx-background-color: #999999 ;
+}
+#toMainScreenButton{
+    -fx-background-color: #804d80;
+}
+#toShowTipsButton{
+   -fx-background-color: #804d80;
+}
